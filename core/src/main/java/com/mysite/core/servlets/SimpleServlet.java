@@ -48,6 +48,7 @@ import java.io.IOException;
 public class SimpleServlet extends SlingSafeMethodsServlet {
 
     private static final long serialVersionUID = 1L;
+    private String unusedvar = "vijay";
 
     @Override
     protected void doGet(final SlingHttpServletRequest req,
